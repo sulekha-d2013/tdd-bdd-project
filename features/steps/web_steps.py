@@ -128,6 +128,7 @@ def step_impl(context, message):
             (By.ID, 'flash_message'),
             message
         )
+        
     )
     assert(found)
 
